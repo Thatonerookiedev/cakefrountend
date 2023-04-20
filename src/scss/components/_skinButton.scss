@@ -1,0 +1,27 @@
+
+
+.skin1{
+    min-width: min-content;
+    max-width: max-content;
+    padding: 0.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    height: 2.3rem;
+    border: 1px solid grey;
+    font-weight: 500;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: inherit !important;
+    font-size: 60%;
+    position: absolute;
+    z-index: 100;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+}
+
+
+
+
+

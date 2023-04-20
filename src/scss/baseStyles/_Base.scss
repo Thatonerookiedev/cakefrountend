@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Font Awsome 6;
+    src: url(/src/assets/fonts/Font\ Awesome\ 6\ Free\ Solid.ttf);
+}
+
+
+
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family:Font Awsome 6,Arial, Helvetica, sans-serif !important;
+    font-weight: 200;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    background-color: gray;
+    position: fixed;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+#root{
+    width: 100% !important;
+    height: 100%;
+}
+
+.containermain{
+    width: 100%;
+    height: 100%;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: scroll;
+}
+
+.containermain::-webkit-scrollbar{
+    display: none;
+}
+
+.Lightmode{
+    background-color: rgb(255, 249, 246) !important;
+    color: black !important;
+}
+
+.Darkmode{
+    background-color: black !important;
+    color: rgb(255, 249, 246) !important;
+}
+
+.LightmodeFont{
+    color: black !important;
+}
+
+.DarkmodeFont{
+    color: rgb(255, 249, 246) !important;
+}
+
+
+

@@ -1,0 +1,122 @@
+
+.navbarcontainer{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid grey;
+    position: relative;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 4000;
+        .logodiv{
+            height: 110%;
+            width: 3rem;
+            object-fit: cover;
+            margin-right: auto;
+                .logo{
+                    width: 120%;
+                    height: 120%;
+                    object-fit: cover;
+                    position: relative;
+                    top: -5px;
+                    left: -5px;
+                }
+        }
+        .loginoroutbutt{
+            height: 80%;
+            width: 125px;
+            padding: 1rem;
+            font-family: inherit;
+            font-size: 90%;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            letter-spacing: 1px;
+            font-weight: bold;
+            border: 1px solid grey;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-left: auto;
+        }
+        .linkdivnav{
+            width: max-content;
+            padding: 0.5rem;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: space-between;
+                .link{
+                    letter-spacing: 1.5px;
+                    margin-left: 3vw;
+                        *{
+                            text-decoration: none;
+                            color: inherit;
+                            font-size: 1rem;
+                        }
+                        *:hover{
+                            text-decoration: underline;
+                            text-underline-offset: 6px;
+                            color: inherit;
+                        }
+                }
+        }
+        // ------------------------
+        .smallmenu{
+            height: 110%;
+            width: 3rem;
+            object-fit: cover;
+            margin-left: auto;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+                .smallmenu{
+                    width: 110%;
+                    height: 110%;
+                    cursor: pointer;
+                }
+        }
+}
+
+.containerham{
+    width: 100%;
+    height: max-content;
+    position: relative !important;
+    z-index: 100 !important;
+    border-bottom: 1px solid grey;
+        .linkham{
+            width: 100%;
+            height: max-content;
+            text-align: center;
+            padding: 0.4rem;
+            letter-spacing: 1.5px;
+                *{
+                    text-decoration: none;
+                    color: inherit;
+                    font-size: 1rem;
+                }
+                *:hover{
+                    text-decoration: underline;
+                    text-underline-offset: 6px;
+                    color: inherit;
+                }
+        }
+}
+
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    width: 90%;
+    font-family: inherit;
+}
+
+.show{
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}

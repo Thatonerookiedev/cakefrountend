@@ -1,0 +1,77 @@
+
+
+.faq-con{
+    width: 100%;
+    height: max-content;
+    box-sizing: content-box;
+    padding: 1rem 0px;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-bottom: auto;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-content: center;
+        .faq-headder{
+            width: 100%;
+            height: max-content;
+            padding: 0.5rem;
+            text-align: center;
+            font-family: inherit;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            position: relative;
+            top: 0;
+            margin: 0;
+            margin-top: 0.8rem;
+        }
+        .con-quest{
+            width: 90%;
+            height: 2rem;
+            border: 1px solid grey;
+            box-sizing: content-box;
+            padding: 0.15rem;
+            align-self: center;
+            &:nth-child(2){
+                margin-top: 2rem;
+            }
+            margin-top: min(2rem);
+            display: flex;
+            flex-direction: row;
+                .buttonfaq{
+                    cursor: pointer;
+                    padding: 0.1rem 0.5rem;
+                    font-size: 1.3rem;
+                }
+                .question{
+                    height: 100%;
+                    display: grid;
+                    justify-content: center;
+                    align-content: center;
+                    margin-left: 0.3rem;
+                    letter-spacing: 1px;
+                    text-transform: capitalize;
+                }
+        }
+}
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    width: 90%;
+    align-self: center;
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+
+.show{
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    padding-top: 0.5rem;
+}
+

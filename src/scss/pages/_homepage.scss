@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Satisfy;
+    src: url(/src/assets/fonts/Satisfy-Regular.ttf);
+}
+
+.imghome{
+    width: 50%;
+    height: 100vh !important;
+    position: absolute;
+    right: 0;
+    object-fit: cover;
+    top: 0;
+        .bigimghome{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+}
+
+.bigleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    display: grid;
+    overflow: hidden;
+}
+
+
+.headdingtextcon{
+    width: 17rem;
+    justify-self: center;
+    align-self: center;
+    height: min-content;
+    padding: 0.5rem;
+    position: relative !important;
+    top: -5rem;
+    left: -1.5rem;
+    font-size: 2rem;
+    z-index: 1 !important;
+        .sidehome{
+            position: absolute;
+            right: 2rem;
+            bottom: -1.7rem;
+            transform: rotate(20deg);
+            font-size: 2.5rem;
+            font-family:  Satisfy;
+        }
+        .parhome{
+            position: absolute;
+            bottom: -43%;
+            left: -5%;
+            width: 120%;
+            height: max-content;
+            font-size: 1rem;
+            font-style: inherit;
+            padding: 0.3rem;
+        }
+}
+
+.imghomesmall{
+    width: 100%;
+    height: 100vh !important;
+    position: absolute;
+    right: 0;
+    object-fit: cover;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    .bigimghome{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+

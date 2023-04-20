@@ -1,0 +1,76 @@
+
+
+.profile-con{
+    width: 100%;
+    padding: 1rem 0px;
+    height: 30rem;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column !important;
+    align-content: center;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        .priceprofile1{
+            margin: 0.7rem 0px;
+            width: 90%;
+            height: 2rem;
+            padding: 0.3rem 0.2rem;
+            border-radius: 8px;
+            border: 1px solid grey;
+            text-align: center;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            letter-spacing: 2px;
+            font-size: 90%;
+            align-self: center;
+        }
+        .errorheaddingprofile{
+            width: 100%;
+            height: max-content;
+            padding: 1rem 0px;
+            text-align: center;
+            letter-spacing: 0.8vw;
+        }
+        .flexproductprofile{
+            margin: 0.7rem 0px;
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            height: 2rem;
+            padding: 0.3rem 0.2rem;
+            border-radius: 8px;
+            border: 1px solid grey;
+                .index{
+                    width: min-content;
+                    height: 100%;
+                    padding: 0.1rem 0.4rem;
+                }
+                .productname{
+                    width: max-content;
+                    height: 100%;
+                    letter-spacing: 2.5px;
+                    font-size: large;
+                    padding: 0px 2rem 0px 2rem;
+                }
+                .priceprofile{
+                    width: max-content;
+                    height: 100%;
+                    padding: 0.1rem 0.4rem;
+                    margin-left: auto;
+                }
+                .quantityprofile{
+                    width: max-content;
+                    height: 100%;
+                    padding: 0.1rem 0.4rem;
+                    margin-left: auto;
+                    position: relative;
+                }
+        }
+}
+
+

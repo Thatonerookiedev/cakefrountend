@@ -1,0 +1,69 @@
+
+.contact-con{
+    width: 100%;
+    height: max-content;
+    padding: 2rem 0px;
+    border-bottom: 1px solid grey;
+        .contact-head{
+            width: 100%;
+            height: max-content;
+            padding: 0.6rem 0px;
+            box-sizing: content-box;
+            text-align: center;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        .info-contact{
+            width: 100%;
+            height: 85%;
+            display: grid;
+            & *{
+                margin: 0.6rem 0px;
+            }
+                .label-con{
+                    width: 100%;
+                    height: max-content;
+                    padding: 0.5rem 0px;
+                    text-align: center;
+                    font-size: 1.7rem;
+                    letter-spacing: 5px;
+                }
+                .contactinput{
+                    width: 90%;
+                    height: 2rem;
+                    justify-self: center;
+                    background-color: inherit;
+                    border: 1px solid grey;
+                    letter-spacing: 2px;
+                    color: inherit;
+                    padding: 1rem;
+                    font-style: inherit;
+                        &:nth-child(4){
+                            height: 8rem;
+                            max-height: 10rem;
+                            max-width: 90%;
+
+                        }
+                }
+                .submitcontact{
+                    width: max-content;
+                    height: max-content;
+                    justify-self: center;
+                    padding: 0.8rem 1rem;
+                    color: inherit;
+                    margin-top: 0.5rem;
+                    background-color: inherit;
+                    border: 1px solid grey;
+                    cursor: pointer;
+                }
+        }
+}
+
+.sent{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    height: max-content;
+}
+
