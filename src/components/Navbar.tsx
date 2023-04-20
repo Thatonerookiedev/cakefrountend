@@ -27,7 +27,7 @@ const Links = ()=>{
                     if(auth === true || element.label !== 'PROFILE'){
                         return(
                             <>
-                                <h3 className={` ${skinFont} link`} key={element.label}><a href={`${window.location.origin.toString()}/main` + element.linkTo}>{element.label}</a></h3>
+                                <h3 className={` ${skinFont} link`} key={element.label}><a href={`/main` + element.linkTo}>{element.label}</a></h3>
                             </>
                         )
                     }
