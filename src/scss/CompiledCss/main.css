@@ -696,7 +696,7 @@ body::-webkit-scrollbar {
   letter-spacing: 0.8vw;
 }
 .profile-con .flexproductprofile {
-  margin: 0.7rem 0px;
+  margin: auto auto;
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -724,7 +724,6 @@ body::-webkit-scrollbar {
   width: max-content;
   height: 100%;
   padding: 0.1rem 0.4rem;
-  margin-left: auto;
 }
 .profile-con .flexproductprofile .quantityprofile {
   width: -moz-max-content;
